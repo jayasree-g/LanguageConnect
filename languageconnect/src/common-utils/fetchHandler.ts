@@ -4,6 +4,7 @@ export interface FetchOptions {
   additionalHeaders?: { [key: string]: any };
   body?: any;
   actionType: string;
+  params?: any;
 }
 
 const fetchHandler = (
